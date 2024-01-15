@@ -44,10 +44,10 @@ class _SpalshScreenState extends State<SpalshScreen> {
 
         setState(() {});
       } on PlatformException {
-        print('error Occured');
+        print('error Occured while granting permission');
       }
      } else {
-      print('permission not granted');
+      print('permission is not granted');
      }
       // final appDir = await getApplicationDocumentsDirectory(); 
    
